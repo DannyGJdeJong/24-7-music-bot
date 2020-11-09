@@ -1,0 +1,28 @@
+{
+  "name": "24-7-music-bot",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:DannyGJdeJong/24-7-music-bot.git",
+  "author": "DannyGJdeJong <dannygjdejong@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.4.1",
+    "ytdl-core": "^4.0.3"
+  }
+}
